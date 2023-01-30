@@ -3,6 +3,7 @@
 
     Author: Denise Case
     Date: January 14, 2023
+    Edits: Missy Bernskoetter, 1/30/2023
 
 """
 
@@ -16,8 +17,8 @@ ch = conn.channel()
 # use the channel to declare a queue
 ch.queue_declare(queue="hello")
 # use the channel to publish a message to the queue
-ch.basic_publish(exchange="", routing_key="hello", body="Hello World!")
+ch.basic_publish(exchange="", routing_key="hello", body="Iced coffee is life")
 # print a message to the console for the user
-print(" [x] Sent 'Hello World!'")
+print(" [x] Sent 'Iced coffee is life'")
 # close the connection to the server
 conn.close()

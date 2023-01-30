@@ -76,15 +76,15 @@ Each of the version 2 programs include an error as well.
 1. Modify the docstrings on all your files.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
+1. Imports should be one per line - why? for readability 
 1. Then, define your functions.
 1. Functions are reuable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
-1. Which of the 4 files will always close() the connection?
+1. Which of the 4 files will always close() the connection? v1 and v2 emit messages
 1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
+1. How many hits did you get? 38,350,182 code results 
 1. Learn and understand this common Python idiom.
 
 ## Reference
@@ -95,3 +95,7 @@ Each of the version 2 programs include an error as well.
 ## Multiple Terminals
 
 ![Mac Example](screenshot.png)
+
+![Dual Terminal Screenshot](Dual_terminal_screenshot.JPG)
+
+This module was a little more difficult. I will say the biggest issue I had was understanding where the error was and fixing it. I also struggled because the environment had both as none and I had to figure out how to move at least one of them to base. I struggled because the about.py would change and the output would fix in the anaconda terminal, but not in VS code. I finally got it to work after removing the about text, closing the terminal completely, and starting over on the project. I also had to reinstall rabbitmq because I didn't install choco first, which caused errors.

@@ -5,23 +5,23 @@
 
  Welcome! 
 
- It's 2023-01-30 at 09:37 AM
+ It's 2023-01-30 at 02:53 PM
 
  This file is running on:    nt Windows 10
  
- The Python version is:      3.10.7
+ The Python version is:      3.9.15
  
  The Python interpreter is at: 
- C:\Users\15736\AppData\Local\Programs\Python\Python310\python.exe
+ C:\Users\15736\Miniconda3\python.exe
 
  The active environment should be either conda OR pip (one should be None):
 
-     Active conda env is: None
+     Active conda env is: base
      Active pip env is:   None
  
  The path to the active virtual environment is:
 
- C:\Users\15736\AppData\Local\Programs\Python\Python310
+ C:\Users\15736\Miniconda3
  
  The Current Working Directory (CWD) where this command was launched is:
 
@@ -33,11 +33,11 @@
  
  The absolute path to this source directory is:
 
- c:\Users\15736\Documents\streaming-03-rabbitmq
+ C:\Users\15736\Documents\streaming-03-rabbitmq
  
  The absolute path to this file is:
 
- c:\Users\15736\Documents\streaming-03-rabbitmq\about.py
+ C:\Users\15736\Documents\streaming-03-rabbitmq\about.py
  
 ==============================================================
 ==============================================================
